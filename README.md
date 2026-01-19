@@ -1,16 +1,98 @@
-# React + Vite
+# 🔐 Login & Sign Up UI (React + Tailwind CSS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **Login & Sign Up UI** built using **React**, **Tailwind CSS**, and **React Router**, featuring:
+- Glassmorphism (transparent UI)
+- Form validation
+- Loading states
+- Toast notifications
 
-Currently, two official plugins are available:
+This project focuses on **clean UI/UX** and **best practices** for authentication pages.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ✅ Login & Sign Up pages
+- 🎨 Glassmorphism / Transparent UI
+- ⚡ Tailwind CSS for styling
+- 🔄 React Router navigation
+- 🔔 Toast notifications (react-toastify)
+- ⏳ Disabled button while submitting
+- 🧹 Controlled inputs with auto-reset
+- 📱 Fully responsive design
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **Frontend:** React (Vite)
+- **Styling:** Tailwind CSS
+- **Routing:** React Router DOM
+- **Notifications:** React Toastify
+- **Language:** JavaScript (ES6+)
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+ ├── components/
+ │    ├── Login.jsx
+ │    └── SignUp.jsx
+ ├── App.jsx
+ ├── main.jsx
+ └── index.css
+
+⚙️ Installation & Setup
+
+Follow these steps to run the project locally:
+
+1️⃣ Clone the repository
+git clone https://github.com/sunnykumar71/Login-SignUp.git
+
+2️⃣ Navigate to project folder
+cd Login-SignUp
+
+3️⃣ Install dependencies
+npm install
+
+4️⃣ Start development server
+npm run dev
+
+
+Open browser at:
+
+http://localhost:5173
+
+📸 UI Preview
+
+Transparent / Glass Login Page
+
+Transparent / Glass Signup Page
+
+Smooth transitions & validation feedback
+
+(Screenshots can be added later)
+
+🔒 Authentication Note
+
+This project currently does not use JWT or backend authentication
+
+API integration can be easily added using Axios
+
+Designed to be backend-ready
+
+📈 Future Improvements
+
+🔗 Backend integration (Login & Signup APIs)
+
+🔐 JWT authentication
+
+👁️ Show / Hide password
+
+🌙 Dark / Light mode toggle
+
+📊 Form validation with regex
+
+🚀 Deployment on Vercel / Netlify
